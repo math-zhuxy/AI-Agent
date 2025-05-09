@@ -1,6 +1,10 @@
 # 介绍
 利用大模型帮助您进行一些简单的任务。
 
+# 项目演示
+![](./readme/a.png)
+![](./readme/b.png)
+
 # 工作流程
 本项目建议使用两种大模型，一种擅长语言推理能力，即`setting_template.json`文件中的`model chat`，另一种只需要支持函数调用功能即可，即`setting_template.json`文件中的`model func_call`。
 在用户发送要求后，chat model 会将任何解析为“单元指令”，并逐个将指令发送给func call model。func call model接收到指令后会调用相应的函数进行执行，项目会将执行完后的结果返回给chat model。chat model会根据结果进行进一步的处理。

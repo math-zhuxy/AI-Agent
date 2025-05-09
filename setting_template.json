@@ -1,0 +1,17 @@
+{
+    "model":{
+        "chat": {
+            "apikey":"",
+            "url": "",
+            "name":""
+        },
+        "func_call":{
+            "apikey":"",
+            "url":"",
+            "name":""
+        }
+    },
+    "search": {
+        "bing_cookie": ""
+    }
+}
